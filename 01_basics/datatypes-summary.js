@@ -1,5 +1,8 @@
 //  Primitive
 
+// All primitive values are stored in stack.Herre whenever the values changes it changes into it shallow copy whereas in heap it changes original values
+
+
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -19,6 +22,8 @@ console.log(id === anotherId);
 
 
 // Reference (Non primitive)
+
+//All non primitive values are stored in heap 
 
 // Array, Objects, Functions
 
