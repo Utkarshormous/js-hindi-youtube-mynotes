@@ -31,4 +31,5 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
+//IMP LINE here min and max is defined because to make the no. lie in the range of 1 to 10.
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
