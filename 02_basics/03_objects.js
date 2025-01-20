@@ -16,7 +16,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-
+Symbol ko edit krne ka tarika [] lagake hota hai agar hum yeh lagaaye bina access krenege toh ye waala const mySym = Symbol("key1") print hoga naaki ye waala [mySym]: "mykey1".
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
